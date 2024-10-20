@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    
+    margin: 0;
+    font-family: 'Montserrat';
+    
+    
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+    .navbar {
+        height: 70px;
+        padding: 20px 36px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+        z-index: 10; /* Ensures the navbar is layered above other elements */
+        position: relative; /* Allows z-index to take effect */
+        border-top-left-radius: 10px; /* Adjust the value as needed */
+        border-top-right-radius: 10px;
+    }
+    
+
+.navbar > img {
+    max-width: 100%;
+}
+section {
+    padding: 20px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+   
+    
+   
+    
+ 
+}
+.hero >img{
+    align-self:center ;
+    width:70%;
+    padding-top: 0px;
+    object-fit: contain;
+    
+}
+
+.hero--header{
+    margin-bottom: 16px;
+}
+
+.hero-text{
+    margin-top: 0;
+}
+
+.card-container {
+    padding: 15px;
+    width: fit-content;
+    font-size: 12px;
+    display: flex;
+    
+    flex:0 0 auto;
+    position: relative;
+    
+   
+
+    
+}
+
+.card{
+    position: relative;
+    display: block;
+
+}
+.card--image {
+    width: auto;
+    height: 250px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+    
+    
+}
+
+.card--stats {
+    display: flex;
+    
+    flex-direction: column;
+    padding: 15px;
+    
+}
+
+.card--star {
+    height: 14px;
+    width:14px ;
+}
+
+.card--badge {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: white;
+    padding: 4px 6px;
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    display: flex;
+}
